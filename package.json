@@ -1,0 +1,23 @@
+{
+  "name": "mybitcoinwebhook",
+  "version": "1.0.0",
+  "description": "bitcoin test webhook with heroku",
+  "main": "index.js",
+  "author": "David U. Sunico",
+  "engines": {
+    "node": "~6.0"
+  },
+  "scripts": {
+    "lint": "semistandard --fix \"**/*.js\""
+  },
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0"
+  }
+}
